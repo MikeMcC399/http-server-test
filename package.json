@@ -4,11 +4,14 @@
   "description": "http server test for Cypress",
   "main": "src/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "start-server-and-test start http://localhost:3000 cy:run",
+    "start": "node src/app.js",
+    "cy:run": "cypress run"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^12.7.0"
+    "cypress": "^12.7.0",
+    "start-server-and-test": "^1.15.4"
   }
 }
