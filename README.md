@@ -54,11 +54,11 @@ npm test
 
 ### Cypress Version
 
-12.7.0
+12.7.0 => 12.16.0
 
 ### Node version
 
-18.14.2
+18.14.2 => 18.16.1
 
 ### Operating System
 
