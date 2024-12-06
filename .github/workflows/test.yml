@@ -4,7 +4,7 @@ on: workflow_dispatch
 
 jobs:
   ipv6:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     if: always()
     steps:
     - name: Check out repository
@@ -17,7 +17,7 @@ jobs:
       run: npx start-server-and-test start http://localhost:3000 cy:run
 
   ipv6-debug:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     if: always()
     steps:
     - name: Check out repository
@@ -32,7 +32,7 @@ jobs:
         DEBUG: cypress:*
 
   ipv6-debug-network:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     if: always()
     steps:
     - name: Check out repository
