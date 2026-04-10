@@ -1,3 +1,5 @@
+Note: This issue is no longer reproducible in cypress@14.0.0
+
 # Cypress issue [25950](https://github.com/cypress-io/cypress/issues/25950)
 
 This is for issue https://github.com/cypress-io/cypress/issues/25950.
