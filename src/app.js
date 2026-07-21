@@ -8,7 +8,7 @@
 // on Windows with
 // netstat -an | grep LISTENING | grep 3000
 
-const http = require('http');
+import http from 'node:http';
 
 const hostname = '::';
 const literalHostname = '[::1]'

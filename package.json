@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "http server test for Cypress",
   "main": "src/app.js",
+  "type": "module",
   "scripts": {
     "test": "start-server-and-test start http://localhost:3000 cy:run",
     "start": "node src/app.js",
