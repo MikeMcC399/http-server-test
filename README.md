@@ -16,7 +16,6 @@ option domain is invalid
 TypeError: Internal error while proxying "GET http://[::1]:3000/" in ClearCyInitialCookie:
 ```
 
-
 ### Desired behavior
 
 1. Cypress should not crash
@@ -38,7 +37,6 @@ cd http-server-test
 npm ci
 npm test
 ```
-
 
 ### Cypress Version
 

@@ -8,18 +8,18 @@
 // on Windows with
 // netstat -an | grep LISTENING | grep 3000
 
-import http from 'node:http';
+import http from 'node:http'
 
-const hostname = '::';
+const hostname = '::'
 const literalHostname = '[::1]'
-const port = 3000;
+const port = 3000
 
 const server = http.createServer((req, res) => {
-    res.statusCode = 200;
-    res.setHeader('Content-Type', 'text/html');
-    res.end('<body>Hello Cypress!</body>');
-});
+  res.statusCode = 200
+  res.setHeader('Content-Type', 'text/html')
+  res.end('<body>Hello Cypress!</body>')
+})
 
 server.listen(port, hostname, () => {
-    console.log(`Server running at http://${literalHostname}:${port}/`);
-});
+  console.log(`Server running at http://${literalHostname}:${port}/`)
+})
