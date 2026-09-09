@@ -12,8 +12,8 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "cypress": "^15.18.0",
-    "start-server-and-test": "^3.0.11"
+    "cypress": "^16.0.0",
+    "start-server-and-test": "^3.0.12"
   },
   "allowScripts": {
     "cypress": true
